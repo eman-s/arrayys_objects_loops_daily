@@ -64,7 +64,7 @@ let film = {
 */
 function addBoxOffice() {
   let addBoxOffice = film.boxoffice = 269061;
-  return film;// Your answer here:
+  return film;
 }
 /*
 5. Add the name "Yukiko Shimazaki" to the "actors" array. Return "film";
@@ -81,7 +81,7 @@ function addActor() {
 function getLosses() {
   let getLosses = film["boxoffice"] - film["budget"];
   return getLosses;
-  // Your answer here:
+  
 }
 
 
